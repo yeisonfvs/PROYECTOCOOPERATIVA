@@ -69,6 +69,7 @@
 
      .boton:hover{
          background-color: #3c8d50;
+         border: #3c8d50;
      }
 
      .enlaces {

@@ -144,7 +144,7 @@
  .boton {
    height: 30px;
    width: 80px;
-   background-color:  #118b30;
+   background-color: #118b30 ;
    border-radius: 4px;
    border-color: #118b30;
    font-family: cursive;
@@ -155,8 +155,9 @@
 
  }
 
- .button:hover{
+ .boton:hover{
    background-color: #5baa58;
+   border: #5baa58;
  }
 
  p {
