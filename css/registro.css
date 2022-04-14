@@ -1,0 +1,184 @@
+.logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 70px;
+    }
+    .linea {
+      height: 30px;
+      width: 100%;
+      size: 50px;
+     background-color: #118b30;
+   }
+
+  .titulo{
+    position: relative;
+    left: 55px;
+  }
+          
+   
+
+   .formulario {
+     border-radius: 8px;
+     border-style: ridge;
+     border: solid;
+     width: 1300px;
+     height: 350px;
+     margin: 0 auto;
+     
+   }
+
+   h2 {
+     text-align: center;
+     font-size: 18px;
+     color: #000;
+   }
+
+  .primerbloque {
+    
+     width: 600px;
+     height: 290px;
+     margin: 0 auto;
+     position: relative;
+     right: 320px;
+  }
+
+  .segundobloque {
+    width: 600px;
+    height: 290px;
+   
+    margin: 0 auto;
+    position: relative;
+    left: 340px;
+    top: -335px;
+
+  }
+
+  .lineavertical {
+    width: 2px;
+    height: 280px;
+    margin-top: -650px;
+    border-left: 8px;
+    color: rgb(199, 196, 196);
+    background-color: rgb(199, 196, 196);
+  }
+
+  .form1 {
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 40px;
+    justify-content: space-between;
+  }
+
+ .tamano1 {
+   width: 40%;
+   height: 25px;
+   margin-left: 15px;
+ }
+
+ .tamano3 {
+   width: 31%;
+   height: 30px;
+   margin-left: 15px;
+   margin-right: 15px;
+   border-radius: 4px;
+ }
+
+ .tamano4 {
+
+  width: 51%;
+  height: 25px;
+ }
+
+ .tamano5 {
+   width: 48%;
+   height: 25px;
+   margin-right: 15px;
+   margin-left: 15px;
+ }
+
+ .tamano6 {
+   width: 33%;
+   height: 25px;
+ }
+
+ input {
+   margin-bottom: 18px;
+   justify-content: space-between;
+   border-radius: 4px;
+ }
+
+ .form2 {
+  width: 95%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 40px;
+  margin-left: 28px;
+  justify-content: space-between;
+ }
+
+ .tamano7 {
+
+  width: 40%;
+  height: 25px;
+ }
+
+ .tamano8 {
+   width: 70%;
+   height: 25px;
+ }
+
+ .tamano9 {
+   width: 40%;
+   height: 25px;
+ }
+
+ label {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   
+ }
+
+ .boton {
+   height: 30px;
+   width: 80px;
+   background-color:  #118b30;
+   border-radius: 4px;
+   border-color: #118b30;
+   font-family: cursive;
+   color: white;
+   margin-top: 5px;
+   margin-left: 250px;
+   cursor: pointer;
+
+ }
+
+ .button:hover{
+   background-color: #5baa58;
+ }
+
+ p {
+   font-size: 13px;
+   margin-left: 20px;
+   margin-top: -10px;
+ }
+
+ .checkbox {
+   margin-top: 8px;
+ }
+
+ footer {
+   font-family: cursive;
+   text-align: right;
+   font-size: 13px;
+   color: rgb(43, 41, 41);
+   margin-right: 15px;
+
+ }
+
+  
+   
+
+    
