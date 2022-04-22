@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>modulo1</title>
     <link rel="stylesheet" href="modulo1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 <body>
     <div id="contenedor">
@@ -14,26 +15,36 @@
        
            <div class="input-icono">
                 <input type="text" name="input"  placeholder="Buscar">
+                <div class="iconos_header">
+                   <i class="bi bi-person-circle" style="font-size: 40px ; color: white;"></i>
+                </div>
+               
               </div>
        
      </header> 
 
      <section class="pequeno">
+       <div class="iconos_section">
+          <i class="bi bi-cloud-arrow-up" ></i>
+          <i class="bi bi-download" ></i>
+          <i class="bi bi-printer" ></i>
+       </div>
+     
 
      </section>
       <section class="grande">
 
       </section>
 
-      <nav class="menu"> 
-          <ul  name="Carpetas">
+      <nav class="nav"> 
+          <ul  name="Carpetas" class="menu">
 
-             <li><a href="" class="carp">Carpetas</a>
-               <ul>
-                <li><a href="">Documentos</a></li>
-                <li><a href="">Clientes</a></li>
-                <li><a href="">Empleados</a></li>
-                <li><a href="">Papelera</a></li>
+             <li><a class="carp">Carpetas</a>
+               <ul class="submenu">
+                <li><a href=""><i class="bi bi-clipboard"></i>Documentos</a></li>
+                <li><a href=""><i class="bi bi-people" ></i>Clientes</a></li>
+                <li><a href=""><i class="bi bi-person-badge" ></i>Empleados</a></li>
+                <li><a href=""><i class="bi bi-trash3" ></i>Papelera</a></li>
                 <li><a href="">Nueva carpeta</a></li>
                 </ul>
               </li> 

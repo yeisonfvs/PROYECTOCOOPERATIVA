@@ -19,6 +19,27 @@ header{
     align-content: center;
 }
 
+.iconos_header{
+    position: relative;
+    left: 550px;
+    bottom: 30px;
+}
+
+.iconos_section{
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.iconos_section i{
+    font-size: 30px;
+    color: #055a1a;
+    margin: 12px;
+    
+}
+
+
+
 .logo{
     height: 80px;
 }
@@ -54,6 +75,9 @@ input{
    
 }
 
+
+
+
 .grande{
     margin: 0;
     padding: 0;
@@ -69,24 +93,19 @@ input{
 .pequeno{
     margin: 0;
     padding: 0;
-    width: 965px;
+    width: 100%;
     float: right;
     height: 60px;
     background-color: #a0daa3;
     
 }
 
-.menu{
+.nav{
     margin: 0;
-    padding: left  50px;
+    padding-left: 80px;
     width: 300px;
     height: 500px;
-    
-    
-    position: absolute;
-    
-
-     
+    position: absolute; 
 }
 
 footer{
@@ -100,8 +119,9 @@ footer{
 }
  ul{ 
     list-style-type: none;
-    background-color: white;
+    background-color: rgba(248, 240, 240, 0.884);
     overflow: hidden;
+    
     margin: 0;
     padding: 0;
     
@@ -113,7 +133,7 @@ footer{
 li a{
     display: block;
     color: rgb(17, 17, 17);
-    text-align: center;
+    text-align:  center;
     padding: 15px;
     text-decoration: none;
     margin: 5px;
@@ -127,6 +147,15 @@ li a:hover{
 .carp{
     background-color: #118b30;
 }
+
+li ul li a i{
+    margin-right: 10px;
+    color: #055a1a;
+}
+
+
+
+
 
 
 
