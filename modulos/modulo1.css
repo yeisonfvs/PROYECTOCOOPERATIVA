@@ -80,9 +80,11 @@ input{
 
 .grande{
     margin: 0;
+    margin-top: 2px;
     padding: 0;
-    width: 800px;
+    width: 100%;
     height: 440px;
+    border: solid 1px black;
     position: relative;
     background-color: rgb(235, 229, 229);
     position: relative;
@@ -113,14 +115,14 @@ footer{
     bottom: 0;
     text-align: right;
     width: 100%;
-    font-size: 12px;
-    margin-right: 5px;
+    font-size: 10px;
+    margin-right: 0;
    
 }
  ul{ 
     list-style-type: none;
     background-color: rgba(248, 240, 240, 0.884);
-    overflow: hidden;
+    
     
     margin: 0;
     padding: 0;
@@ -132,6 +134,7 @@ footer{
 
 li a{
     display: block;
+    
     color: rgb(17, 17, 17);
     text-align:  center;
     padding: 15px;
@@ -141,16 +144,70 @@ li a{
     font-family: Arial, Helvetica, sans-serif;
 }
 li a:hover{
-    background-color: #59ca7f;
+    background-color: #118b30;
 }
 
 .carp{
     background-color: #118b30;
+    color: white;
 }
 
 li ul li a i{
     margin-right: 10px;
     color: #055a1a;
+}
+
+ul li ul{
+    display: none;
+}
+
+ul li:hover > ul{
+    display: block;
+
+}
+
+.botones{
+   position: absolute;
+   right: 30px;
+   top: 10px;
+}
+
+button{
+    border-radius: 8px;
+    background-color: #118b30;
+    color:beige ;
+    width: 90px;
+    height: 25px;
+    margin: 10px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+
+tr  td{
+    
+    padding: 15px;
+}
+tr th{
+    border-bottom: 2px black ;
+    padding: 15px;
+    background-color: #a0daa3;
+
+}
+.tabla{
+    position: absolute;
+    bottom: 100px;
+    right: 10px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+#marco-modulos{
+  width: 100%;
+  height: 100%;
 }
 
 

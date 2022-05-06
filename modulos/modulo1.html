@@ -7,14 +7,15 @@
     <title>modulo1</title>
     <link rel="stylesheet" href="modulo1.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
 </head>
 <body>
     <div id="contenedor">
       <header>
        <img src="logo.png" alt="logo" class="logo">
        
-           <div class="input-icono">
-                <input type="text" name="input"  placeholder="Buscar">
+             <div class="input-icono">
+                <input type="text" name="input" placeholder="Buscar"  >
                 <div class="iconos_header">
                    <i class="bi bi-person-circle" style="font-size: 40px ; color: white;"></i>
                 </div>
@@ -33,17 +34,20 @@
 
      </section>
       <section class="grande">
-
+        <div id="marco-modulos">
+           <iframe src="docum.html" name="marco-modulos"></iframe>
+        </div>
+     
       </section>
 
       <nav class="nav"> 
           <ul  name="Carpetas" class="menu">
 
-             <li><a class="carp">Carpetas</a>
+             <li><a class="carp">Modulos</a>
                <ul class="submenu">
-                <li><a href=""><i class="bi bi-clipboard"></i>Documentos</a></li>
-                <li><a href=""><i class="bi bi-people" ></i>Clientes</a></li>
-                <li><a href=""><i class="bi bi-person-badge" ></i>Empleados</a></li>
+                <li><a target="marco-modulos" href="docum.html"><i class="bi bi-clipboard"></i>Documentos</a></li>
+                <li><a target="marco-modulos" href="clientes.html"><i class="bi bi-people" ></i>Clientes</a></li>
+                <li><a target="marco-modulos" href="empleados.html"><i class="bi bi-person-badge" ></i>Empleados</a></li>
                 <li><a href=""><i class="bi bi-trash3" ></i>Papelera</a></li>
                 <li><a href="">Nueva carpeta</a></li>
                 </ul>
