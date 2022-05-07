@@ -22,3 +22,13 @@ button:hover{
 thead{
     background-color: #a6f7b3;
 }
+.Buscar{
+    width: 200px;
+    height: 35px;
+    padding-left: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+    outline-offset: 2px ;
+    outline: green  ;
+
+}
